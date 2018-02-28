@@ -1,0 +1,7 @@
+Pour faire pointer une adresse IP vers un domaine ou un sous domaine, il faut ajouter ces infoormations au fichier /etc/hosts. Ce fichier est accessible uniquement en lecture pour un simple utilisateur. Il faut donc etre root ou avoir les droits d'ecriture sur ce fichier pour pouvoir ajouter cette ligne dans le fichier.
+
+Ce qui donnerait : cat /etc/hosts
+127.0.0.1       localhost
+46.19.122.85	intra.42.fr
+255.255.255.255 broadcasthost
+::1             localhost
