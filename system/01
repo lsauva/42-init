@@ -1,0 +1,4 @@
+La version instalee de Debian se trouve dans le fichier /etc/issue
+
+root@1ab91bd01a9f:/# cat /etc/issue
+Debian GNU/Linux 9 \n \l
