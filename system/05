@@ -1,1 +1,1 @@
-service ssh status
+service ssh status ou /etc/init.d/ssh status

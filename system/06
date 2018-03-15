@@ -1,1 +1,1 @@
-service ssh restart
+service ssh restart ou /etc/init.d/ssh restart
