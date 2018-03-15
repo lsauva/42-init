@@ -1,0 +1,2 @@
+# -P, --policy	: met en place un comportement par defaut pour la cible definie
+iptables -P INPUT DROP
