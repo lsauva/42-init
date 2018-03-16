@@ -4,4 +4,3 @@
 # Mise a jour des sources, puis des packages, puis log
 
 crontab -e 0 4 * * 1 apt-get update && apt-get upgrade -y >> /var/log/update_script.log
-
