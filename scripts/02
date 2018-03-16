@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script de mise a jour planifiee.
-# Mise a jour des sources, puuis des packages, puis log + planif une fois
-# par semaine a 4h00 du matin
+# planif une fois par semaine a 4h00 du matin
+# Mise a jour des sources, puis des packages, puis log
 
 crontab -e 0 4 * * 1 apt-get update && apt-get upgrade -y >> /var/log/update_script.log
 
