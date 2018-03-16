@@ -1,3 +1,5 @@
 #!/bin/bash
 # script qui affiche la liste des fichiers triés par taille présents dans le
-# dossier passé en argumen
+# dossier passé en argument
+
+ls -lhS $1
