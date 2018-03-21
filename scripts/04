@@ -1,0 +1,16 @@
+#!/bin/bash
+# script qui permet de surveiller les modifications du fichier /etc/crontab
+#  et envoie un mail à root si celui-ci a été modifié.
+# Créez une tache plannifiée pour script tous les jours à minuit.
+
+# file=$(find /etc -mindepth 1 -maxdepth 1 -name "crontab")
+#
+# if ["$file" -mtime -1]
+
+# commande a executer a l'exterieur du script
+md5sum /etc/crontab > crontab.md5
+
+if [md5sum --check crontab.md5 != 0]
+# envoi de mail a root
+
+
