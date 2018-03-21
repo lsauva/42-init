@@ -12,4 +12,8 @@ md5=`md5sum /etc/crontab | cut -d ' ' -f 1`
 old=`md5sum /etc/crontab.old | cut -d ' ' -f 1`
 if [old != md5]
 	echo "Fichier crontab modifie !" | mail -s "[ALERT] /etc/crontab modified" root
+	cp -R /etc/crontab /etc/crontab.old
 fi
+
+# crontab -e 
+# 0 0 * * * /Documents/GitHublsauva/init/scripts/04
