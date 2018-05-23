@@ -1,3 +1,5 @@
+# Trouver chez quel hébergeur est le site de Slash16
+
 en tapant la commande 'whois' suvi du domaine recherche, on obtient :
 $>whois slash16.org
 
