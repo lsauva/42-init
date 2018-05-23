@@ -2,4 +2,4 @@
 # depuis votre poste
 ping 10.51.1.253
 
-# ping : permet de voir si une machine est joignable
+# ping : permet de voir si une machine est joignable si on a une reponse.
