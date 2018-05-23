@@ -1,2 +1,11 @@
+# Trouvez grâce au résultat de la commande précédente le nom et l’IP du matériel
+# qui fait le lien entre vous (réseau local) et l’extérieur
+
+traceroute to slash16.org (13.32.210.106), 64 hops max, 52 byte packets
+ 1  10.12.254.254 (10.12.254.254)  0.846 ms  0.669 ms  0.684 ms
+ 2  nat-1 (10.60.1.11)  0.189 ms  0.155 ms  0.161 ms
+ 3  dc3 (62.210.35.1)  1.555 ms  2.133 ms  1.367 ms
+
 le serveur qui fait le lien entre le reseau local et l'exterieur est le serveur NAT 
 nat-1 (10.60.1.11)
+NAT = Network Address Translation
