@@ -1,1 +1,4 @@
-/sbin/ifconfig -a | grep flags | grep mtu | cut -d ":" -f 1
+# affichage en colonne
+# /sbin/ifconfig -a | grep flags | grep mtu | cut -d ":" -f 1
+# affichage en ligne des interfaces de la machine sans details.
+ifconfig -l
