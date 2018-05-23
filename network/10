@@ -1,1 +1,4 @@
+# Identifiez les différents appareils réseaux entre votre poste et le domaine slash16.org
 traceroute slash16.org
+
+# traceroute : liste les machine (routeurs) entre la machine et la cible
