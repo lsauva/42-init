@@ -8,3 +8,4 @@ Address:	10.51.1.42#53
 253.1.51.10.in-addr.arpa	name = dhcp.42.fr.
 
 cette machine est donc le serveur DHCP pour le domaine 42.fr
+DHCP, Dynamic Host Configuration Protocol
