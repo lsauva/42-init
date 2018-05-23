@@ -1,1 +1,6 @@
-ifconfig | grep en0: -A 6 | grep "inet " | cut -d " " -f 2
+# Ancien sujet :
+# Identifiez l'adresse IP de l'interface Ethernet
+# ifconfig | grep en0: -A 6 | grep "inet " | cut -d " " -f 2
+# Nouveau sujet :
+# Identifiez et affichez les caractéristiques de l’interface Ethernet
+ifconfig -L en0
