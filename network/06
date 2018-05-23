@@ -1,1 +1,9 @@
-/etc/resolv.conf
+# Récupérez le path complet du fichier dans lequel est écrit l’adresse IP
+# du serveur DNS que vous utilisez
+cat /etc/resolv.conf
+
+# OU
+# cat /var/run/resolv.conf
+# CAR /etc/resolv.conf est en fait un lien symbolique vers /var/run/resolv.conf
+# ls -l /etc/resolv.conf
+# lrwxr-xr-x  1 root  wheel  22 20 nov  2016 /etc/resolv.conf -> ../var/run/resolv.conf
