@@ -1,1 +1,2 @@
+# Identifiez l’adresse MAC de la carte Wi-Fi
 ifconfig | grep en1: -A 4 | grep ether | cut -d " " -f 2
