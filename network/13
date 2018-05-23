@@ -1,3 +1,4 @@
+# Déterminez le type du serveur
 avec la commande nslookup, on obtient des infos sur le serveur.
 
 lsauvage@e2r13p6 ~nslookup 10.51.1.253
