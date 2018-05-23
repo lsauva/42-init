@@ -1,2 +1,6 @@
 # Identifiez l’adresse MAC de la carte Wi-Fi
-ifconfig | grep en1: -A 4 | grep ether | cut -d " " -f 2
+# en1 est la carte Wi-Fi
+# awk est utilise pour afficher la valeur qui suit ether ($1 afficherait 'ether')
+ifconfig en1 | grep ether | cut -d " " -f 2
+# OU
+# ifconfig en1 | awk '/ether/{print $2}'
