@@ -1,1 +1,4 @@
+# Identifiez la gateway par défaut dans la table de routage
 netstat -nr | grep default -m 1 | cut -d " " -f 13
+# OU
+# netstat -nr | grep default -m 1 | awk '/default/{print $2}'
