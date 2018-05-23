@@ -2,3 +2,8 @@
 netstat -nr | grep default -m 1 | cut -d " " -f 13
 # OU
 # netstat -nr | grep default -m 1 | awk '/default/{print $2}'
+# netstat -r        : permet de visualiser les tables de routage
+# netstat -n        : affiche les adresses au format numerique
+# grep default      : filtre les lignes contenant 'default' et n'en garde qu'une (-m 1)
+# cut - d " "       : decoupe la ligne resultat et affiche le contenu de la 13e colonne
+# awk '/default/{print $2}' : permet d'afficher la valeur suivant 'default'
