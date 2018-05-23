@@ -1,1 +1,3 @@
-le fichier contenant les entrees locales DNS est le fichier /etc/hosts 
+# Quel est le fichier contenant les entrées locales DNS ?
+# le fichier contenant les entrees locales DNS est le fichier /etc/hosts
+echo "/etc/hosts"
