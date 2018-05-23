@@ -1,1 +1,6 @@
+# Identifiez l’IP du serveur DNS qui répond sur le domaine suivant : slash16.org
 dig slash16.org | grep SERVER | cut -d "(" -f 2 | cut -d ")" -f 1
+
+# dig           : permet de faire la requete DNS pour slash16.org
+# grep SERVER   : l'adresse IP se trouve sur la ligne SERVER
+# cut           : extrait l'adresse IP sans ls parentheses
