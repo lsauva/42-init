@@ -1,9 +1,5 @@
-La version instalee de Debian se trouve dans le fichier /etc/issue
-
-root@1ab91bd01a9f:/# cat /etc/issue
-Debian GNU/Linux 9 \n \l
-
-Pour une info plus precise on peut consulter le fichier /etc/debian_version
+Dans quel fichier se trouve la version installée de votre Debian ?
+La version instalee de Debian se trouve dans le fichier /etc/debian_version
 
 $ cat /etc/debian_version
 9.3
