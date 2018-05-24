@@ -2,3 +2,6 @@
 # Script permettant d'afficher seulement login, UID et Path de chaque entree du fichier /etc/passwd
 echo Login : UID : Path
 cat /etc/passwd | cut -d ":" -f 1,3,6
+
+# ou
+# at /etc/passwd | awk -F ":" '{print $1 " " $3 " " $6}'| column -t
