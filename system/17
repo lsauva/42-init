@@ -1,1 +1,3 @@
+Trouvez une commande qui donne la liste des règles de pare-feu
+
 iptables -L

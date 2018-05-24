@@ -1,1 +1,4 @@
+Quelle commande permet d’afficher l’espace disponible par le système ?
 df -h
+df	: display free disk space
+-h	: human-readable output

@@ -1,2 +1,3 @@
+Quel fichier contient les clés RSA autorisées à se connecter via SSH ?
 Les cles sont stockees dans le fichier
 /$HOME/.ssh/authorized_keys ou /$USER/.ssh/autorized_keys

@@ -1,1 +1,8 @@
+Déterminez la taille exacte de chaque dossier de /var
+
 du -h -d 1 /var
+
+du :	display disk usage statistics
+-h :	human-readable output
+-d 1 :	depth 
+	Display an entry for all files and directories depth directories deep.
